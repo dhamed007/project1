@@ -1,0 +1,20 @@
+version: "3.1"
+
+services:
+  djangoapp:
+    image: dhamed007/djangoapp:latest
+     restart: always
+    command: ["python", "manage.py", "runserver"]
+    ports:
+      - "8000:8000"
+   network: jay
+  frontend:
+     reactapp:  dhamed007/reactapp
+      restart: always
+    command: ["npm", "start"]
+    ports:
+      - "3000:3000"
+    network: jay
+    networks:
+     jay: 
+         driver:  bridge
