@@ -18,7 +18,8 @@ jobs:
         with:
           node-version: 16
       - run: npm i
-      - run: npm start
+      - run: npm start -- --env-file=devops-django-react-task/frontend/src/.env.local --resolve-plugins-relative-to=devops-django-react-task/frontend/src/
+
       - run: npm run build
 
 
