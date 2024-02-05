@@ -17,4 +17,4 @@ services:
     network: jay
     networks:
      jay: 
-         driver:  bridge
+         driver: bridge

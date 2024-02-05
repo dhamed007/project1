@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Enoch-Demo-App </h1>
+          <h1 className="App-title">React-Page </h1>
         </header>
         <p className="App-intro">
           This page was created by <b>Enoch </b>
