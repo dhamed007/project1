@@ -8,4 +8,4 @@ All notable changes to this project be documented in this file. This project tri
 
 ### Fixed
 
-### Remove
+### Removed
